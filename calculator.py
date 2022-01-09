@@ -12,4 +12,6 @@ class Calculator:
         pass
     def divide():
         pass
+    def modulo():
+        pass
 
