@@ -14,4 +14,6 @@ class Calculator:
         pass
     def modulo():
         pass
+    def exp():
+        pass
 
