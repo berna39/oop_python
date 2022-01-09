@@ -6,4 +6,6 @@ class Calculator:
 
     def addition():
         pass
+    def substraction():
+        pass
 
