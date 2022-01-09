@@ -10,4 +10,6 @@ class Calculator:
         pass
     def multiply():
         pass
+    def divide():
+        pass
 
