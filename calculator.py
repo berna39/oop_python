@@ -3,3 +3,7 @@ class Calculator:
         self.number_one = number_one
         self.number_two = number_two
         self.operand = operand
+
+    def addition():
+        pass
+
