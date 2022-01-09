@@ -8,4 +8,6 @@ class Calculator:
         pass
     def substraction():
         pass
+    def multiply():
+        pass
 
