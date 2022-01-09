@@ -16,4 +16,6 @@ class Calculator:
         pass
     def exp():
         pass
+    def print_result():
+        pass
 
