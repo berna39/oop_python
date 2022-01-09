@@ -18,4 +18,6 @@ class Calculator:
         pass
     def print_result():
         pass
+    def end():
+        pass
 
