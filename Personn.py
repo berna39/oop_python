@@ -33,14 +33,14 @@ class Person:
 #p.introduce()
 #p.walk()
 
-person_fr_str = Person.from_string('Robinson-m-Kneya')
-print(person_fr_str)
+#person_fr_str = Person.from_string('Robinson-m-Kneya')
+#print(person_fr_str)
 
 #creating an object from a file
-with open('people.txt') as file:
-    person = Person.from_string(file.readline().strip())
-    print(person)
+#with open('people.txt') as file:
+#    person = Person.from_string(file.readline().strip())
+#    print(person)
 
-other_person = Person.from_file('other_one.txt')
-print(other_person)
+#other_person = Person.from_file('other_one.txt')
+#ßprint(other_person)
     
