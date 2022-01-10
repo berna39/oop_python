@@ -12,7 +12,7 @@ class Person:
 
     def walk(self):
         print('i\'m walking alone')
-        
+
     def __str__(self) -> str:
         return f'I\'m { self.name} and i\'m from { self.country }'
 
@@ -28,3 +28,9 @@ class Person:
 
 person_fr_str = Person.from_string('Robinson-m-Kneya')
 print(person_fr_str)
+
+#creating an object from a file
+with open('people.txt') as file:
+    person = Person.from_string(file.readline().strip())
+    print(person)
+    
