@@ -20,7 +20,6 @@ class Team:
     def get_wins(self):
         print(f'{self.name} : { self.wins }')
 
-
 #Practice
 man_city = Team('Manchester city', 'Manchester', 'Blues', 'One of the bigs teams of the decade 2010 - 2020', None)
 liecester = Team('Liecester city', 'Liecester', 'Foxes', 'We\'re foxes and we\'re fearless', None)

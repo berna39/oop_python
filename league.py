@@ -6,7 +6,7 @@ class League:
     def __str__(self):
         return f'league name = {self.name}'
 
-    @classmethod
+    @classmethod #cls argument name is by convention
     def set_macths(cls, matchs):
         cls.matchs = matchs
 
