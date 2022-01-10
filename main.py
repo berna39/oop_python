@@ -1,4 +1,7 @@
-from Personn import personn
+import pluralize
 
-p = Personn('Shango jos', 'm', 'DRC')
-p.print_object()
+p = pluralize.Pluralize()
+
+print(p.pluralize('phone'))
+
+print(p.get_plural(3, 'song'))
