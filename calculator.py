@@ -17,14 +17,16 @@ class Calculator:
     def start(cls):
         first_number = int(input('enter the first number : \n'))
         second_number = int(input('enter the second number : \n'))
-        operation = input("choose between these operations : 'add', 'sub', 'div', 'exp' :\n")
+        operation = input("choose between these operations : 'add', 'sub', 'mult', 'div', 'exp' :\n")
 
         if operation == 'add':
             print(cls.addition(first_number, second_number))
         if operation == 'sub':
-            print(cls.addition(first_number, second_number))
+            print(cls.substraction(first_number, second_number))
+        if operation == 'mult':
+            print(cls.multiply(first_number, second_number))
         if operation == 'div':
-            print(cls.addition(first_number, second_number))
+            print(cls.divide(first_number, second_number))
 
 
 Calculator.start()
