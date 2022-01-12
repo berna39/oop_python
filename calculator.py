@@ -15,9 +15,9 @@ class Calculator:
 
     @classmethod 
     def start(cls):
-        first_number = input('enter the first number : \n')
-        second_number = input('enter the second number : \n')
-        operation = input("choose between these operations : 'add', 'sub', 'div', 'exp'")
+        first_number = int(input('enter the first number : \n'))
+        second_number = int(input('enter the second number : \n'))
+        operation = input("choose between these operations : 'add', 'sub', 'div', 'exp' :\n")
 
         if operation == 'add':
             print(cls.addition(first_number, second_number))
