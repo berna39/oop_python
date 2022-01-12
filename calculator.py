@@ -21,6 +21,10 @@ class Calculator:
 
         if operation == 'add':
             print(cls.addition(first_number, second_number))
+        if operation == 'sub':
+            print(cls.addition(first_number, second_number))
+        if operation == 'div':
+            print(cls.addition(first_number, second_number))
 
 
 Calculator.start()
