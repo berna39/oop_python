@@ -12,7 +12,7 @@ class League:
 
 
 
-l = League('Spor Toto Super Lig', ['Galatasaray', 'Fenerbace', 'Besiktas', 'Trabonzspor'])
+l = League('Spor Toto Super Lig', ['Galatasaray', 'Fenerbace', 'Besiktas', 'Trabonzspor', 'kayiseri sport', 'trabzonspor'])
 print(l)
 print(l.teams)
 print(l.matchs)
