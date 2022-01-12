@@ -13,14 +13,14 @@ class Calculator:
     def divide(first_number, second_number):
         return first_number / second_number
 
-    @staticmethod 
-    def start():
+    @classmethod 
+    def start(cls):
         first_number = input('enter the first number : \n')
         second_number = input('enter the second number : \n')
         operation = input("choose between these operations : 'add', 'sub', 'div', 'exp'")
 
         if operation == 'add':
-            print(addition(first_number, second_number))
+            print(cls.addition(first_number, second_number))
 
 
 Calculator.start()
