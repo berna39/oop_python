@@ -10,13 +10,14 @@ class Candidate:
 
 class Vote:
     candidates = []
-    def __init__(self):
-        self.candidates.append('Eric Zemour')
-        self.candidates.append('Jean-luc Melenchon')
-        self.candidates.append('Marine Lepen')
-        print(self.candidates)
+    def __init__(self, candidates):
+        self.candidates = candidates
 
     def vote():
         pass
 
-v = Vote()
+candidates = []
+candidates.append(Candidate('Eric zemour', 1, 'republicain'))
+candidates.append(Candidate('Jean-luc Melenchon', 1, 'Droite'))
+candidates.append(Candidate('Marine Lepen', 1, 'Gauche'))
+
