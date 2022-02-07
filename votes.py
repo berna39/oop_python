@@ -6,3 +6,8 @@ class Candidate:
 
     def __repr__(self) -> str:
         return f'i\'m {self.name} the number {self.number} of the group {self.group}'
+
+
+class Vote:
+    def __init(self):
+        pass
