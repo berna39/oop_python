@@ -1,3 +1,7 @@
+class Team:
+    def __init__(self, name, town):
+        pass
+
 class League:
     matchs = 0
     def __init__(self, name, teams):
@@ -9,6 +13,9 @@ class League:
     @classmethod #cls argument name is by convention
     def set_macths(cls, matchs):
         cls.matchs = matchs
+
+
+
 
 
 
