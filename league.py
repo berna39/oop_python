@@ -1,6 +1,11 @@
 class Team:
     def __init__(self, name, town):
-        pass
+        self.name = name
+        self.town = town
+    
+    def __str__(self) -> str:
+        return self.name
+
 
 class League:
     matchs = 0
@@ -19,7 +24,7 @@ class League:
 
 
 
-l = League('Spor Toto Super Lig', ['Galatasaray', 'Fenerbace', 'Besiktas', 'Trabonzspor', 'kayiseri sport', 'trabzonspor'])
+l = League('Spor Toto Super Lig', [Team('Galatasaray', 'Ankara'), 'Fenerbace', 'Besiktas', 'Trabonzspor', 'kayiseri sport', 'trabzonspor'])
 print(l)
 print(l.teams)
 print(l.matchs)
